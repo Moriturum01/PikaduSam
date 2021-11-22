@@ -1,0 +1,136 @@
+body {
+  background-color: #e5e5e5;
+}
+
+header {
+  background-color: #fa8c16;
+}
+
+.header-container{
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  padding-top: 26px;
+  padding-bottom: 26px;
+  justify-content: space-between;
+}
+.container{
+  display: flex;
+  align-items:center;
+}
+.logo-site {
+  margin-right: 60px;
+}
+
+.menu-item {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 22px;
+  color: #fafafa;
+  margin-right: 15px;
+}
+.input-container{
+ position: relative;
+}
+
+.search-on-site{
+  border-radius: 4px;
+  border: 1px solid #d9d9d9;
+  background: #FFFFFF;
+  width: 273px;
+  height: 32px;
+}
+.search-icon{
+  top: 8px;
+  right: 10px;
+  bottom: 8px;
+  position: absolute;
+  fill: #FA8C16;
+}
+.content{
+  max-width: 1200px;
+  margin: auto;
+  width: 90%;
+  margin-top: 30px;
+}
+
+.post {
+  background: #FFFFFF;
+  border: 1px solid #e8e8e8;
+  max-width: 800px;
+  margin-bottom: 30px;
+}
+.post-text{
+padding-right: 36px;
+padding-left: 36px;
+}
+.post-text h2{
+  margin-top: 35px;
+}
+.tags {
+  margin-top: 10px;
+  margin-bottom: 22px;
+}
+.tag {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 22px;
+  color: #bfbfbf;
+  margin-right: 10px;
+}
+.text {
+  font-size: 14px;
+  line-height: 22px;
+  color: #262626;
+}
+
+.post-footer{
+  background-color: #FAFAFA;
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  border-top: 1px solid #e8e8e8;
+}
+
+.buttons{
+  display: flex;
+  align-items:center;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  padding-left: 36px;
+  
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  background-color:#FAFAFA;
+  border: 0;
+  fill: #8C8C8C;
+  padding-right: 29px;
+}
+.counters {
+  padding-left: 5px;
+  font-size: 14px;
+}
+.author {
+  display: flex;
+  align-items:center;
+  text-align: right;
+  padding-right: 36px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+}
+
+.nickname {
+  display: block;
+}
+
+.avatar {
+  width: 34px;
+  height: 34px;
+  padding-left: 9px;
+}
