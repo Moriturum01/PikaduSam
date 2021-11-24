@@ -16,6 +16,15 @@ header {
   padding-bottom: 26px;
   justify-content: space-between;
 }
+
+.center-container {
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+
 .container{
   display: flex;
   align-items:center;
@@ -50,10 +59,7 @@ header {
   fill: #FA8C16;
 }
 .content{
-  max-width: 1200px;
-  margin: auto;
   width: 90%;
-  margin-top: 30px;
 }
 
 .post {
@@ -129,8 +135,120 @@ padding-left: 36px;
   display: block;
 }
 
+.side{
+  margin-left: 30px;
+  max-width: 370px;
+  width: 90%;
+}
+
+.user {
+  display: flex;
+  margin-right: 25px;
+  align-items:center;
+  padding-left: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.side-header {
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  background-color: #fafafa;
+  border-bottom: 1px solid #e8e8e8;
+  
+}
+
 .avatar {
   width: 34px;
   height: 34px;
   padding-left: 9px;
+}
+
+.avatar-side {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 17px;
+}
+
+.icon-off {
+  padding: 23px 25px ;
+}
+
+.menu-side {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-side-item {
+ padding: 16px 16px 16px 48px;
+ background-color: #FFFFFF;
+ text-decoration: none;
+ color: #595959;
+ font-size: 14px;
+}
+
+.post-publish {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-right: 110px;
+  align-items: center;
+  color: #FFFFFF;
+  text-decoration: none;
+  display: flex;
+  background-color:#Faad14;
+  margin-top: 20px;
+  justify-content: space-between;
+  border-radius: 4px;
+}
+
+.icon-fire {
+  fill: #FFFFFF;
+  padding-left: 16px;
+}
+
+.comment-day {
+  margin-top: 20px;
+}
+
+.comment-day-header {
+  padding: 23px 131px 23px 25px;
+  font-size: 16px;
+  font-weight: 600;
+  color:#595959;
+  background-color:#fafafa;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.comment-day-content {
+  padding: 22px 40px 30px 25px;
+  background-color: #FFFFFF;
+  font-size: 16px;
+  line-height: 22px;
+  color: #262626;
+}
+
+.comment-gold {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #d48806;
+  margin-bottom: 10px;
+}
+
+.ad-block {
+  position: relative;
+  margin-top: 20px;
+}
+
+.ad-text {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 2px 27px;
+  padding-left: 27px;
+  padding-right: 26px;
+  background-color: #c4c4c4;
+  color: #FFFFFF;
 }
